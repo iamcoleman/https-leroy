@@ -227,6 +227,22 @@ def magic_8_ball(status):
 	reply(body, status)
 
 
+def favorite_words(status):
+	user_tweets = get_user_TL(status)
+	length = len(user_tweets)
+	good_words = []
+	for tweet in user_tweets:
+		text = tweet.text
+		words = text.split()
+		for word in words:
+			if "@" not in word:
+				good_words.append(word)
+	print("Number of good_words: "+str(len(good_words)))
+
+
+
+
+
 #######################################
 def decider(status):
 	lower = status.text.lower()
@@ -257,6 +273,9 @@ def decider(status):
 	elif ("magic 8 ball" in lower) or ("magic eight ball" in lower):
 		print("Includes magic 8 ball")
 		magic_8_ball(status)
+	elif ("favorite words" in lower) or ("favorite word" in lower):
+		print("Includes favorite words")
+		favorite_words(status)
 	else:
 		print("Check out all my commands at ...")
 #######################################
