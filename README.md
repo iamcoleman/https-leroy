@@ -10,3 +10,18 @@
 * __fortune__ = gives you a fortune cookie
 * __flip a coin__ = flips a coin
 * __magic 8 ball__ = shakes a ball
+
+
+## Examples:
+
+
+Tweet - "Hey @httpsLeroy, who's my best friend?"
+
+
+Reply - "Based on your last 10 tweets, @httpsLeroy (2) retweeted you the most"
+
+
+Tweet - "@httpsLeroy favorite stats"
+
+
+Reply - "Based on your last 200 favorites, you favorited @httpsLeroy (23) the most"
