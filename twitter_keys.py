@@ -1,8 +1,8 @@
 # Add in your keys and tokens.
-ACCESS_TOKEN = "946453865515200512-oARaianSLm9nU0bAywFbqYJhORsykR6"
-ACCESS_TOKEN_SECRET = "J4UKzXbyNCwCKat1tHJOeGebMMdoRUtTcxl89ZJYjlO8v"
-CONSUMER_KEY = "b4k6PLU9D05sSqfVKTXstdOKy"
-CONSUMER_KEY_SECRET = "FbaiANNQ6oojwnhq3F0cnVOzJSptRVJQ4CZnGRF3WyeeponmEZ"
+ACCESS_TOKEN = "your access token"
+ACCESS_TOKEN_SECRET = "your access token secret"
+CONSUMER_KEY = "your consumer key"
+CONSUMER_KEY_SECRET = "your consumer key secret"
 
 def getKeys():
     return (ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_KEY_SECRET)
