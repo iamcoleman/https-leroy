@@ -1,4 +1,4 @@
-## Follow my Twitter Bot [@httpsLeroy](https://twitter.com/httpsLeroy?lang=en)
+## Follow Leroy [@httpsLeroy](https://twitter.com/httpsLeroy?lang=en)
 
 
 ## Leroy's current [commands](https://pastebin.com/5KkfFJsH)
