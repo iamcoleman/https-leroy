@@ -238,6 +238,35 @@ def favorite_words(status):
 			if "@" not in word:
 				good_words.append(word)
 	print("Number of good_words: "+str(len(good_words)))
+	## find top 5 ##
+	word_occur = [0, 0, 0, 0, 0]
+	king_words = ["", "", "", "", ""]
+	for comp_word in good_words:
+		curr_occur = 0
+		for one_word in good_words:
+			if one_word.lower() == comp_word.lower():
+				curr_occur += 1
+		# test current occurance against all king words
+		if curr_occur > word_occur[0]:
+			word_occur[0] = curr_occur
+			king_words[0] = comp_word.lower()
+		elif curr_occur > word_occur[1]:
+			word_occur[1] = curr_occur
+			king_words[1] = comp_word.lower()
+		elif curr_occur > word_occur[2]:
+			word_occur[2] = curr_occur
+			king_words[2] = comp_word.lower()
+		elif curr_occur > word_occur[3]:
+			word_occur[3] = curr_occur
+			king_words[3] = comp_word.lower()
+		elif curr_occur > word_occur[4]:
+			word_occur[4] = curr_occur
+			king_words[4] = comp_word.lower()
+	if (word_occur[0] == 0) or (word_occur[1] == 0) or (word_occur[2] == 0) or (word_occur[3] == 0) or (word_occur[4] == 0):
+		body = "You haven't tweeted enough to have any favorite words..."
+	else:
+		body = "Your favorite words are '"+king_words[0]+"', '"+king_words[1]+"', '"+king_words[2]+"', '"+king_words[3]+"', and '"+king_words[4]
+	reply(body, status)
 
 
 
