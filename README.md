@@ -25,3 +25,8 @@ Tweet - "@httpsLeroy favorite stats"
 
 
 Reply - "Based on your last 200 favorites, you favorited @httpsLeroy (23) the most"
+
+
+## About Leroy
+
+This bot was made on a train ride, it's pretty messy right now. Might update it soon, but we'll see. It runs off a Heroku server, so it should be up right now if you want to go tweet at him.
