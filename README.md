@@ -1,5 +1,7 @@
 ## Follow Leroy [@httpsLeroy](https://twitter.com/httpsLeroy?lang=en)
 
+A fun Twitter Bot that will give users statistics about their accounts. A user just has to Tweet at the bot with one of the commands below, and the bot will reply to the Tweet.
+
 
 ## Leroy's current [commands](https://pastebin.com/5KkfFJsH)
 * __basic stats__ = gives you your average favorites and retweets per tweet
@@ -27,6 +29,6 @@ Tweet - "@httpsLeroy favorite stats"
 Reply - "Based on your last 200 favorites, you favorited @httpsLeroy (23) the most"
 
 
-## About Leroy
+## Deploy
 
-This bot was made on a train ride, it's pretty messy right now. Might update it soon, but we'll see. It runs off a Heroku server, so it should be up right now if you want to go tweet at him.
+Unfortunately, @httpsLeroy is currently down because I ran out of money to pay Heroku :')
